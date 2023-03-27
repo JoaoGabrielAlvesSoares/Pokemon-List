@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  font-family: "Share Tech Mono", monospace;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #8791d9;
+}
+
+/* Nav Bar */
+#navBar {
+  position: sticky;
+  background-color: #292929;
+  display: flex;
+  height: 4rem;
+  width: auto;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 2px 2px 2px 1px #292929;
+}
+
+.navBarBtn {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 1rem;
+}
+
+.navBarBtn:hover {
+  color: black;
+  transition: 1s;
+  background-color: #8791d9;
+}
+
+.navBarBtn.current {
+  border-bottom: 1px solid #eaeaea;
+}
+
+.navBarBtn a {
+  display: inline-flex;
+  height: 100%;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.5;
+  border: solid 2px transparent;
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+}
+
+/* Container */
+#pokeContainer {
+  display: flex;
+  align-items: center;
+}
+
+#pokeSection {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+}
+
+/* Side Buttons */
+.fa-chevron-right {
+  font-size: 30px;
+  padding: 5px;
+  cursor: pointer;
+  color: #eaeaea;
+}
+.fa-chevron-left {
+  font-size: 30px;
+  padding: 5px;
+  cursor: pointer;
+  color: #eaeaea;
+}
+
+/* Card */
+.pokemon {
+  text-transform: capitalize;
+  background-color: #eaeaea;
+  margin: 1rem;
+  padding: 1rem 1.5rem;
+  width: 10.9rem;
+  border-radius: 5px;
+  color: #292929;
+  position: relative;
+  box-shadow: 2px 2px 5px 1px #292929;
+}
+.pokemon:hover {
+  background-color: #292929;
+  color: white;
+  transition: 1s;
+}
+
+.pokemon img {
+  width: 8rem;
+  height: auto;
+}
+
+.pokemon h4 {
+  margin-bottom: 0.75rem;
+}
+
+.typeDiv {
+  color: white;
+  display: flex;
+  justify-content: center;
+  border-radius: 6px;
+  width: 4rem;
+  margin-top: 0.15rem;
+}
+
+.pokeStats {
+  margin-top: 0.35rem;
+  margin-bottom: 37px;
+}
+
+.actionBtn {
+  position: absolute;
+  right: 35%;
+  bottom: 15px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  background-color: rgb(17, 180, 239);
+  border-color: rgb(17, 180, 239);
+  color: white;
+}
+.actionBtn:hover {
+  background-color: red;
+  border-color: red;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.releaseBtn {
+  right: 30%;
+}
+.catchBtn {
+  right: 35%;
+}
+
+.fa-star {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.fa-star-checked {
+  color: gold;
+}

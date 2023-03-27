@@ -1,0 +1,175 @@
+{
+  "pokemons": [
+    {
+      "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/249.png",
+      "name": "lugia",
+      "weight": 2160,
+      "type": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "psychic",
+            "url": "https://pokeapi.co/api/v2/type/14/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "flying",
+            "url": "https://pokeapi.co/api/v2/type/3/"
+          }
+        }
+      ],
+      "height": 52,
+      "id": 249,
+      "favorite": true
+    },
+    {
+      "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
+      "name": "mewtwo",
+      "weight": 1220,
+      "type": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "psychic",
+            "url": "https://pokeapi.co/api/v2/type/14/"
+          }
+        }
+      ],
+      "height": 20,
+      "id": 150,
+      "favorite": true
+    },
+    {
+      "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/248.png",
+      "name": "tyranitar",
+      "weight": 2020,
+      "type": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "rock",
+            "url": "https://pokeapi.co/api/v2/type/6/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "dark",
+            "url": "https://pokeapi.co/api/v2/type/17/"
+          }
+        }
+      ],
+      "height": 20,
+      "id": 248,
+      "favorite": true
+    },
+    {
+      "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/382.png",
+      "name": "kyogre",
+      "weight": 3520,
+      "type": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "water",
+            "url": "https://pokeapi.co/api/v2/type/11/"
+          }
+        }
+      ],
+      "height": 45,
+      "id": 382,
+      "favorite": true
+    },
+    {
+      "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
+      "name": "arcanine",
+      "weight": 1550,
+      "type": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "fire",
+            "url": "https://pokeapi.co/api/v2/type/10/"
+          }
+        }
+      ],
+      "height": 19,
+      "id": 59,
+      "favorite": false
+    },
+    {
+      "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
+      "name": "lapras",
+      "weight": 2200,
+      "type": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "water",
+            "url": "https://pokeapi.co/api/v2/type/11/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "ice",
+            "url": "https://pokeapi.co/api/v2/type/15/"
+          }
+        }
+      ],
+      "height": 25,
+      "id": 131,
+      "favorite": false
+    },
+    {
+      "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
+      "name": "scyther",
+      "weight": 560,
+      "type": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "bug",
+            "url": "https://pokeapi.co/api/v2/type/7/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "flying",
+            "url": "https://pokeapi.co/api/v2/type/3/"
+          }
+        }
+      ],
+      "height": 15,
+      "id": 123,
+      "favorite": true
+    },
+    {
+      "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1008.png",
+      "name": "miraidon",
+      "weight": 2400,
+      "type": [
+        {
+          "slot": 1,
+          "type": {
+            "name": "electric",
+            "url": "https://pokeapi.co/api/v2/type/13/"
+          }
+        },
+        {
+          "slot": 2,
+          "type": {
+            "name": "dragon",
+            "url": "https://pokeapi.co/api/v2/type/16/"
+          }
+        }
+      ],
+      "height": 35,
+      "id": 1008,
+      "favorite": false
+    }
+  ]
+}
